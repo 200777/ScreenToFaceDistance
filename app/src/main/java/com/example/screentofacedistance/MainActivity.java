@@ -82,8 +82,8 @@ public class MainActivity extends AppCompatActivity implements IMessageActionLis
 
     public void changeDistanceOnScreen(final Measurement dist) {
         String str = String.valueOf(dist.distanceToFaceGet()).substring(0,4);
-        Log.i("CHECK", str);
-        if( str.equals("-0.1"))
+
+        if( str.equals("-0.1") || str.equals(("-0.2")))
             distanceView.setText("Calculating Distance");
         else {
             distanceView.setText(dF.format(dist.distanceToFaceGet()) + " cm");
