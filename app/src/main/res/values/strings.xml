@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ScreenToFaceDistance</string>
+
+    <string name="currentDistance">Distance</string>
+    <string name="calibrate">Calibrate!</string>
+    <string name="reset">Reset</string>
+    <string name="showMiddlePoint">Middle eye point</string>
+
+
+</resources>

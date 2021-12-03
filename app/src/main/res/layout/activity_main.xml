@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/calibrateButton"
+        android:layout_below="@+id/currentDistance"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@id/currentDistance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/currentDistance" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@id/calibrateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/red_button"
+        android:textColor="@color/white"
+        android:text="@string/calibrate"
+        android:onClick="pressedCalibrate"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/reset"
+        android:onClick="pressedReset"/>
+
+</RelativeLayout>
