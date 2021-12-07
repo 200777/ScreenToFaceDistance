@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements IMessageActionLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setTitle("Application");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         boolean result = checkPermission();
         if (result) {
             usedCamera = getCameraInstance();

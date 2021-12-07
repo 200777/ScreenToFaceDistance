@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/thedy/Desktop/ScreenToFaceDistance/app/src/main/res/layout/activity_add_delete_items.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thedy/Desktop/ScreenToFaceDistance/app/src/main/res/layout/activity_all_requirment.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/thedy/Desktop/ScreenToFaceDistance/app/src/main/res/layout/activity_main_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thedy/Desktop/ScreenToFaceDistance/app/src/main/res/layout/fragment_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thedy/Desktop/ScreenToFaceDistance/app/src/main/res/layout/fragment_my.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
