@@ -10,6 +10,6 @@ workflows:
       - name: Grant execute permission to gradlew
         script: chmod +x ./gradlew
       - name: Build debug APK
-        script: ./gradlew assembleDebug
+        script: ./gradlew assembleDebug -Dorg.gradle.jvmargs="-Xmx2048m -Dfile.encoding=UTF-8 --add-opens java.base/java.io=ALL-UNNAMED"
     artifacts:
       - app/build/outputs/apk/debug/*.apk
